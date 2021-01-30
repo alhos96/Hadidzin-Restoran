@@ -1,0 +1,384 @@
+*{
+    padding: 0px;   
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    margin-left: 160px;
+    margin-right: 160px;
+    background-color: #292930;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    font-size: 1.2em;
+}
+.box{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color:#f3f3f3;
+}
+
+
+.bijela-slova{
+    color: #f3f3f3;
+}
+
+.crna-sova{
+    color: #292930;
+}
+
+h2{
+    font-size: 2.3em;
+}
+
+/* * * * * * * * * * B O X 1 * * * * * * * * * */
+#box1{
+    display: flex;
+    height: 80vh;
+    font-family: 'Tangerine', cursive;
+    line-height: normal;
+    font-size: 2em;
+}
+
+
+#tufahija{
+    background-image: url(img/tufahija.jpg);
+    flex: 3;
+    position: relative;
+}
+
+#tufahija img{
+   margin: 20px 0px 0px 70px;
+   transition: 0.2s ease;
+}
+#tufahija img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+ }
+
+#lazanje{
+    background-image: url(img/lazanje.jpg);
+    flex: 3;
+    position: relative;
+    text-align: right;
+}
+
+#lazanje i{
+    color: #292930;
+    margin: 20px 70px 0px 0px;
+    transition: 0.2s ease;
+}
+#lazanje i:hover{
+    color: #fbc12f;
+    transform:rotate(90deg) ;
+}
+
+
+
+#prazni{
+    flex: 0.7;
+    background-color:#fbc12f;
+}
+
+#slatko-header{
+    writing-mode: vertical-rl;
+    position: absolute;
+    top: 10%;
+    right: -87px;
+    font-size: 2.8em;
+    transition: 0.3s ease;
+}
+#slatko-header:hover{
+    cursor: context-menu;
+    right: -91px;
+}
+
+#slano-header{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 10%;
+    left: -87px;
+    font-size: 2.8em;
+    transition: 0.3s ease;
+}
+
+#slano-header:hover{
+    cursor: context-menu;
+    left: -91px;
+}
+
+/* * * * * * * B O X 2 * * * * * * * */
+
+#box2{
+    height: 50vh;
+    background-color: #292930;
+    display: flex;
+    position: relative;
+}
+
+#box2-text-left{
+    flex: 3;
+    line-height: 2.5em;
+    text-align: left;
+    
+}
+
+#box2-text-left h2{
+    position: absolute;
+    bottom: 20px;
+    left: 12%;
+    transition: 0.5s ease;
+}
+#box2-text-left h2:hover{
+    bottom: 30px;
+    cursor: pointer;
+}
+
+
+
+#smoothie{
+    background-image: url(img/smoothie.jpg);
+    flex: 0.7;
+    margin: 30px 0px 30px 0px;
+}
+
+#box2-text-right{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    line-height: 1.3em;
+}
+
+#box2-text{
+    height: 100%;
+    width: 70%;
+    background-color: #fbc12f;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+}
+
+#box2-text p{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+
+/* * * * * * * B O X 3 * * * * * * * */
+
+#box3 {
+    background-image: url(img/dorucak.jpg);
+    height: 90vh;
+    position: relative;
+}
+
+.box3-textbox{
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.box3-textbox h3{
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.box3-textbox a{
+    font-size: smaller;
+    font-weight: lighter;
+    border-bottom: 2px solid white;
+    border-radius: 2px;
+}
+
+.box3-textbox p{
+    font-weight: 500;
+}
+
+#dorucak{
+    position: absolute;
+    top: 12%;
+    left: 80px;
+    background-color: #292930f5;
+    border:6px solid #fbc12ff5;
+}
+
+#recepti{
+    position: absolute;
+    bottom: 12%;
+    left: 80px;
+    background-color: #fbc12ff5;
+}
+
+/* * * * * * * B O X 4 * * * * * * * */
+
+#box4{
+    background-color: #292930;
+    display: flex;
+}
+
+#box4-text{
+    flex: 1;
+    padding: 60px;
+}
+
+#box4-text p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#box4-text .fab{
+    color: #fbc12f;
+    margin-left: 8px;
+    
+}
+
+#box4-icons{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box4-icons .fas{
+    color: #fbc12ff5;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+#box4-icons p{
+    color: #f3f3f3;
+}
+
+#hrana, #pice, #recepti-icona{
+    flex: 1;
+    text-align: center;
+}
+
+/* * * * * * * B O X 5 * * * * * * * */
+
+#box5{
+    background-image: url(img/riba.jpg);
+    position: relative;
+    height: 85vh;
+}
+
+#box5-text{
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+#box5-text p{
+    margin-top: 20px;
+}
+
+/* * * * * * * B O X 6 * * * * * * * */
+
+#box6{
+    height: 60vh;
+    display: flex;
+    background-color: #292930;
+}
+
+#kroasan{
+    background-image: url(img/kroasan.jpg);
+    flex: 1;
+}
+
+#box6-text{
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#box6-text p{
+    width: 50%;
+    margin: auto;
+   
+}
+#box6-text h2{
+    margin-bottom: 20px;
+}
+
+#box6-text .fas{
+    font-size: 30px;
+    color: #fbc12ff5;
+    margin-bottom: 20px;
+}
+
+
+/* * * * * * * B O X 7 * * * * * * * */
+
+#box7{
+    height: 40vh;
+    background-color: #292930;
+    display: flex;
+    font-size: smaller;
+}
+
+
+
+#box7-text-left{
+    margin: auto;
+    margin-left: 15px;
+    flex: 1;
+}
+
+#box7-right{
+    flex: 1;
+    display: flex;
+}
+
+#box7-text-right{
+    background-color: #fbc12ff5;
+    margin: auto;
+
+    
+}
+#box7-text-right p{
+    margin-top: 13px;
+
+}
+#box7-text-right p{
+    padding: 10px 0px 10px 6px;
+}
+#box7-text-right h2{
+    padding: 10px 0px 0px 6px;
+}
+
+#hajra{
+    margin:auto;
+    padding: 15px;
+}
+
+#hajra img{
+    margin-top: 8px;
+    height: 193px;
+    border-radius:
+    
+}
+
+
+
+
+
+
+
+
+
+
+
